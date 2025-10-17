@@ -64,4 +64,5 @@ print(final_state)
 
 
 from IPython.display import Image
-Image(workflow.get_graph().draw_mermaid_png())
+#Image(workflow.get_graph().draw_mermaid_png())
+print(workflow.get_graph().print_ascii())
